@@ -1,11 +1,12 @@
 body{ 
-    
+ 
     background-color:#fff;
     font-family: Roboto,sans-serif;
     color:#434455;
     font-style: normal;
     box-sizing: border-box;
     margin: 0 auto;}
+
 
 ul{list-style-type: none;}
 
@@ -126,7 +127,7 @@ img{
          url(../images/peopleoffice1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 1440px;
+    max-width: 100%;
     background-position: center;
     }
 
