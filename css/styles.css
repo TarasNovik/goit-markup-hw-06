@@ -35,3 +35,15 @@ img {
     margin-right: auto;
     padding: 0 15px;
 }
+
+@media screen and(min-width:768px) {
+    .container {
+        max-width: 738px;
+    }
+}
+@media screen and(min-width:1168px) {
+    .container {
+        max-width: 1168px;
+    }
+}
+/* mobile header styles */
