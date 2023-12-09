@@ -55,13 +55,8 @@ body {
     margin-right: auto;
     padding: 0 15px;
    }
-
-
-.mobile-link{
+.social-link{
     color:  #2E2F42;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.15; 
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
@@ -187,9 +182,11 @@ body {
             padding-left: 0;
         }
         .address-links,
-        .social-links {
-              display: none;
-          }
+        .social-links { display: none; }
+.social-link {   font-size: 36px;
+                font-weight: 700;
+                 line-height: 1.15;}
+                
 }
 
 
@@ -202,8 +199,11 @@ body {
             padding-top: 25px;
             padding-bottom: 25px;
         }
-   .mobile-menu-open-btn{
-    display: none;
+   .mobile-menu-open-btn{display: none;}
+   .social-link{
+       font-size: 16px;
+       font-weight: 500;
+       line-height: 1.5;
    }
 }
 @media screen and (min-width: 1158px){
