@@ -460,6 +460,8 @@ flex-direction: column;
 
    /* modal window stiles */
    .modal {
+    width: 288px;
+    min-height: 623px;
        position: absolute;
        top: 50%;
        left: 50%;
@@ -769,10 +771,7 @@ flex-direction: column;
      gap: 24px;
 
  }
- .modal {
-     width: 288px;
-     min-height: 623px;
- }
+ 
 .form-text{
 width: 256px;
 height: 48px;
@@ -831,6 +830,7 @@ background-image: linear-gradient(to bottom,
     column-gap: 24px;
     row-gap: 72px;
     margin-top: 96px;
+    margin-bottom: 96px;
 }
 
 .advantages-kont-link {
@@ -855,11 +855,15 @@ background-image: linear-gradient(to bottom,
 .portfolio-card {
     width: calc((100% - 24px) / 2);}
 
-}
+
 .modal{
     width: 408px;
     min-height: 584px;
 }
+.form-text {
+    width: 360px;
+    
+}}
 
 /* laptop styles */
 @media screen and (min-width: 1158px){
@@ -886,7 +890,8 @@ background-image: linear-gradient(to bottom,
     flex-wrap: wrap;
     column-gap: 24px;
         row-gap: 72px;
-    margin-top: 96px;
+    margin-top: 120px;
+    margin-bottom:120px;
 }
 .advantages-kont-link {
     width: calc((100% - 72px)/4);
