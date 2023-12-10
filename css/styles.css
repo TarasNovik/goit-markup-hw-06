@@ -785,7 +785,9 @@ flex-direction: column;}
 }
     
 
-@media screen and(min-resolution: 192dpi) {
+@media screen and(min-resolution: 192dpi),
+screen and( min-resolution: 2dppx),
+screen and(min-device-pixel-raito: 2 ) {
     .hero {
         background-image:
             url(../images/dark-bg@2x.jpg);
