@@ -782,12 +782,8 @@ flex-direction: column;}
             margin-left: 24px;
             justify-content: center;
             align-items: center;}
-
 }
     
-
-
-
 
 @media screen and(min-resolution: 192dpi) {
     .hero {
