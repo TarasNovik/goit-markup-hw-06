@@ -749,6 +749,8 @@ flex-direction: column;}
     .portfolio-cont{
     row-gap: 48px;}
     .footer {padding: 100px 0;}
+    .text-footer{margin-bottom: 0;}
+    
     .logo-web-footer {
             display: inline-block;
             margin-bottom: 16px;
