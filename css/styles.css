@@ -695,6 +695,12 @@ flex-direction: column;}
 .modal-footer-subscribe-text{ margin-left: 0;}
 .modal-subscribe-input-email {
     width: 264px;}
+.subscribe-buttom {
+      margin-left: 24px;
+      justify-content: center;
+      align-items: center;
+  }
+  }
 .link {font-size: 12px;
        font-weight: 400;}}
 
