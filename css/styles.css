@@ -698,9 +698,8 @@ flex-direction: column;}
 .subscribe-buttom {
       margin-left: 24px;
       justify-content: center;
-      align-items: center;
-  }
-  }
+      align-items: center;}
+  
 .link {font-size: 12px;
        font-weight: 400;}}
 
@@ -788,12 +787,7 @@ flex-direction: column;}
     .subscribe-input {
      display: flex;
     flex-direction: column;}
-.modal-subscribe-input-email {width: 264px;}
 .submit-button {align-items: end;}
-.subscribe-buttom {
-            margin-left: 24px;
-            justify-content: center;
-            align-items: center;}
 }
     
 
