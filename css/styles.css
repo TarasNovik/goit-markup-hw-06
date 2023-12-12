@@ -693,6 +693,8 @@ flex-direction: column;}
 .modal{padding: 72px 24px 24px 24px;}
 .modal-footer-form{display: flex;}
 .modal-footer-subscribe-text{ margin-left: 0;}
+.modal-subscribe-input-email {
+    width: 264px;}
 .link {font-size: 12px;
        font-weight: 400;}}
 
